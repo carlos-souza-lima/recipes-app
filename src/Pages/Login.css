@@ -1,0 +1,21 @@
+.form-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.form-login img {
+  margin-bottom: 5px;
+}
+
+.form-login h3 {
+  color: black;
+  text-shadow: 2px 2px 0 white;
+}
+
+.login, input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}

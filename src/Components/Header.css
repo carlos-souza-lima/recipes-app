@@ -1,0 +1,16 @@
+/* .header-app {
+
+} */
+
+.header-div {
+  align-items: center;
+  background-color: #ffda6a;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-header {
+  height: 52px;
+  margin-top: 2px;
+  padding-top: 3px;
+}

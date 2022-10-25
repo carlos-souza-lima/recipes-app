@@ -1,0 +1,11 @@
+.recipes-drinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+
+.page-drinks {
+  background-color: #f8f9fa;
+}

@@ -1,0 +1,25 @@
+.search-bar {
+  align-items: center;
+  background-color: #ffda6a;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar-search {
+  width: 95%;
+}
+
+.div-search {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.div-search label {
+  display: flex;
+}
+
+.btn-search-bar {
+  margin-bottom: 10px;
+  width: 75%;
+}

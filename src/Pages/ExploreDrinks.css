@@ -1,0 +1,20 @@
+.explore-drinks-page {
+  background-color: #f8f9fa;
+  height: 600px;
+}
+
+.explore-drinks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.explore-drinks-btn {
+  border: 2px solid black;
+  font-size: 25px;
+  height: 100px;
+  width: 100%;
+}

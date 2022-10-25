@@ -1,0 +1,21 @@
+.profile-page {
+  background-color: #f8f9fa;
+  height: 600px;
+}
+
+.profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.profile-btn {
+  border: 2px solid black;
+  font-size: 25px;
+  height: 100px;
+  width: 100%;
+}

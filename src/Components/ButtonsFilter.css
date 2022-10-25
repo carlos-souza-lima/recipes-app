@@ -1,0 +1,18 @@
+.buttons-div {
+  background-color: #ffda6a;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 5px;
+}
+
+.btn-filter {
+  border: 2px solid black;
+  margin-bottom: 7px;
+  width: 30%;
+}
+
+.btn-filter:nth-child( 5 ) {
+  font-size: 13px;
+}

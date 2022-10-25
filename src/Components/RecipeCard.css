@@ -1,0 +1,15 @@
+.card-recipe {
+  border: 1px solid hsl(0, 0%, 40%);
+  box-shadow: 5px 4px 17px -3px black;
+  display: flex;
+  height: 200px;
+  width: 130px;
+}
+
+.card-title {
+  color: black;
+  display: flex;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}

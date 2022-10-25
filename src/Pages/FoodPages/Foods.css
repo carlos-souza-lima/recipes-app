@@ -1,0 +1,12 @@
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+
+.foods-page {
+  background-color: #f8f9fa;
+}
+

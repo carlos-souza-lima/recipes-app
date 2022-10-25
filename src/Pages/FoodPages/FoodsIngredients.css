@@ -1,0 +1,20 @@
+.foods-ingredients-page {
+  background-color: #f8f9fa;
+}
+
+.foods-ingredients {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.foods-ingredients-options {
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  font-size: 26px;
+  justify-content: center;
+  margin: 30px 0;
+  padding-top: 30px;
+  width: 360px;
+}

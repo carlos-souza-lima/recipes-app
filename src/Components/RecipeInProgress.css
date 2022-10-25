@@ -1,0 +1,27 @@
+.section-ingredients {
+  background-color: #f8c52a8a;
+}
+
+.ingredients-title {
+  padding-left: 40px;
+}
+
+.in-progress-ingredients-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.in-progress-ingredients-container label {
+  display: flex;
+}
+
+.in-progress-ingredients-container input {
+  margin-right: 5px;
+}
+
+.btn-recipe {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  width: 40%;
+}

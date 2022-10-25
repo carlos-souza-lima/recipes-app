@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Bitter:ital,wght@1,400;1,500&family=Indie+Flower&family=Lobster&family=PT+Serif:ital@1&display=swap') ;
+
+body {
+  background-color: #ffda6a;
+  color: #242423;
+  font-family: Balsamiq Sans , cursive;
+}
+
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.recipes-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.recipe-link {
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.recipe-card {
+  align-items: center;
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: 250px;
+}
+
+@media ( max-width : 360px ) {
+
+  .recipes-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .recipe-card {
+    margin-bottom: 10px;
+  }
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+.recipe-img {
+  border-radius: 35px;
+  height: 200px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.btn-ingredient, .btn-ingredient-drinks, .btn-nationality {
+  background-color: white;
+  border: none;
+}
+
+.img-foods {
+  height: 200px;
+  width: 200px;
+}
+
+.li-ingredient {
+  list-style-type: none;
+}
+
+.input-ingredient:checked + span {
+  text-decoration: line-through;
+}
+
+.btn-finish-recipe:disabled {
+  background-color: red;
+}
+
+.photo-progress {
+  height: 200px;
+  width: 200px;
+}
+
+.c-loader {
+  align-items: center;
+  animation: is-rotating 1s infinite;
+  border: 6px solid #e5e5e5;
+  border-radius: 50%;
+  border-top-color: black;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  margin: 150px auto;
+  padding: 30%;
+  width: 250px;
+}
+
+a {
+  color: black;
+}
+
+@keyframes is-rotating {
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@media ( max-width : 360px ) {
+
+  .recipe-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+/*
+#iceLeft {
+  animation: clink .8s infinite ease;
+  opacity: 0.6;
+  transform-origin: 36px 66px;
+}
+
+#iceRight {
+  anisd-019-b-project-recipes-appmation: clink .8s .2s infinite ease;
+  opacity: 0.6;
+  transform-origin: 60px 78px;
+}
+*/
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: rgb(234, 244, 252);
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}

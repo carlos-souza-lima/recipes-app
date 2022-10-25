@@ -1,0 +1,32 @@
+.snackbar {
+  align-items: center;
+  background-color: #333;
+  border-radius: 4px;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  opacity: 0;
+  padding: 16px;
+  position: fixed;
+  transition: all 200ms ease-in-out;
+  visibility: hidden;
+  width: 200px;
+
+}
+
+.snackbar.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.snackbar .close {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+  transition: 200ms;
+}
