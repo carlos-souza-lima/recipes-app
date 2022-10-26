@@ -66,5 +66,3 @@ function App() {
 }
 
 export default App;
-
-// fazendo o deploy
